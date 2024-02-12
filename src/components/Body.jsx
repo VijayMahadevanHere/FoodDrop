@@ -58,7 +58,7 @@ const Body = () => {
           onClick={() => {
             const data = filterData(searchText, allRestaurants);
             setFilteredRestaurants(data);
-            setLocalStorage(searchText);
+       
           }}
         >
           Search

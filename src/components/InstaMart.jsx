@@ -9,7 +9,7 @@ const Section = ({ title, description,isVisble ,setIsVisible}) => {
         <button
           className="cursor-pointer underline"
           onClick={() => {
-            setIsVisible();
+            setIsVisible()
           }}
         >
           Hide
